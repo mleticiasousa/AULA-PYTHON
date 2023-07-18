@@ -1,0 +1,1 @@
+#Verifique se  o número é par ou impar e imprima uma mensagem  correspondente
