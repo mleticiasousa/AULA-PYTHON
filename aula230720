@@ -1,0 +1,33 @@
+#lista []
+dados = ["Maria Leticia",19,"São Paulo"]
+dados[1] = 20   #para alterar algum item da lista utiliza a estrutura
+dados.append("SP")  #para adicionar algum item na lista
+dados.remove("São Paulo")  #para remover itens (lembra de sempre chamar o nome da lista)
+#dados.pop
+dados[1] = 19
+
+print(dados)
+print("      ______________      ")
+
+#tupla () -são basicamente listas sem a obrigração do sinal () ou [] para delimitação e são imutáveis.
+#dicionário {}
+dadosdic = {"Nome": "Maria Leticia de Sousa Silva"},{"Idade": 19},{"Cidade": "São Paulo"},{"Email": "letisousa009@gmail.com"}
+print(dadosdic)
+print("      ______________      ")
+
+#exercicio
+nota = float(input("Digite a nota do aluno: "))
+media = 6
+def new_func(nota, media):
+    if nota >= media:             #if e else compraram a nota
+      print("Aluno aprovado")
+    else:
+      print("Aluno reprovado")
+
+new_func(nota, media)
+
+print(nota)
+print("      ______________      ")
+
+#desafio
+valor = int(input("Insira o valor que deseja sacar: "))
