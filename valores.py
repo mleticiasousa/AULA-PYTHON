@@ -13,6 +13,3 @@ elif valor > saldo:
     print("Saldo insuficiente!")
 else:
     print("Processando pagamento...")
-
-
-
